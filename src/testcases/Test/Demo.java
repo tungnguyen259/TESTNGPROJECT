@@ -26,8 +26,6 @@ public class Demo {
 	{
 		//do any things
 		//test commit code
-		WebDriver driver = new FirefoxDriver();
-		driver.get("");
 		
 	}
 	
