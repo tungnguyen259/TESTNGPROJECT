@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testmodules>
+	<testmodule name="TC_JOOMLA_BANNERS_CLIENT">
+		<clientname>Client Test</clientname>
+		<contactname>Mr John</contactname>
+		<contactemail>John@gmail.com</contactemail>
+		<unpublishedstatus>Unpublished</unpublishedstatus>
+		<publishedstatus>Published</publishedstatus>
+		<trashstatus>Trashed</trashstatus>
+		<archivedstatus>Archived</archivedstatus>
+		<publishedstatus>Published</publishedstatus>
+		<unpublishedstatus>Unpublished</unpublishedstatus>
+		<trashstatus>Trashed</trashstatus>
+		<clientSuccessfulMessage>Client successfully saved.</clientSuccessfulMessage>
+		<deleteSuccessfulMessage>1 client successfully trashed.</deleteSuccessfulMessage>
+		<controlPage>Control Panel</controlPage>
+		<clientPublishSuccessfulMessage>1 client successfully published.</clientPublishSuccessfulMessage>
+		<clientUnPublishSuccessfulMessage>1 client successfully unpublished.</clientUnPublishSuccessfulMessage>
+		<clientAchiveSuccessfulMessage>1 client successfully archived.</clientAchiveSuccessfulMessage>
+		<clientCheckinSuccessfulMessage>1 client successfully checked in.</clientCheckinSuccessfulMessage>
+		<redColor>#9d261d</redColor>
+		<numberItem>5</numberItem>
+		<newContactEmail>Emailtest</newContactEmail>
+		<startClientName>newClientTeam3</startClientName>
+		<clientNameDynamicJavaScript>return document.getElementById('jform_name').style.borderColor='%s';</clientNameDynamicJavaScript>
+		<contactEmailDynamicJavaScript>return document.getElementById('jform_email').style.borderColor='%s';</contactEmailDynamicJavaScript>
+	<addClientPage>Banners: New Client</addClientPage>
+	<editClientPage>Banners: Edit Client</editClientPage>
+	</testmodule>
+	<testmodule name="TC_JOOMLA_BANNERS_BANNERS">
+		<clientname>Client Test</clientname>
+		<contactname>Mr John</contactname>
+		<contactemail>John@gmail.com</contactemail>
+		<unpublishedstatus>Unpublished</unpublishedstatus>
+		<publishedstatus>Published</publishedstatus>
+		<trashstatus>Trashed</trashstatus>
+		<archivedstatus>Archived</archivedstatus>
+		<publishedStatus>Published</publishedStatus>
+		<unpublishedstatus>Unpublished</unpublishedstatus>
+		<trashstatus>Trashed</trashstatus>
+		<categoryName>Category Test 1</categoryName>
+		<clientSuccessfulMessage>Client successfully saved.</clientSuccessfulMessage>
+		<categorySuccessfulMessage>Category successfully saved.</categorySuccessfulMessage>
+		<bannerName>Banner Test 1</bannerName>
+		<bannerSuccessfulMessage>Banner successfully saved.</bannerSuccessfulMessage>
+		<categoryText>create a category.</categoryText>
+		<editBannerPage>Banners: Edit</editBannerPage>
+		<editCategoryName>Edited Category Test 1</editCategoryName>
+		<editBannerName>Edited Banner Test 1</editBannerName>
+		<newBannerName>New Banner Test 1</newBannerName>
+		<bannerPublishSuccessfulMessage>1 banner successfully published.</bannerPublishSuccessfulMessage>
+		<bannerUnpublishSuccessfulMessage>1 banner successfully unpublished.</bannerUnpublishSuccessfulMessage>
+		<bannerAchiveSuccessfulMessage>1 banner successfully archived.</bannerAchiveSuccessfulMessage>
+		<bannerCheckinSuccessfulMessage>1 banner successfully checked in.</bannerCheckinSuccessfulMessage>
+		<bannerDeleteSuccessfulMessage>1 banner successfully trashed.</bannerDeleteSuccessfulMessage>
+		<bannerCheckinSuccessfulMessage>1 banner successfully checked in.</bannerCheckinSuccessfulMessage>
+		<redColor>#9d261d</redColor>
+		<clientNameDynamicJavaScript>return document.getElementById('jform_name').style.borderColor='%s';</clientNameDynamicJavaScript>
+		<linkName>Clients</linkName>
+		<clientPage>Banners: Clients</clientPage>
+		<numberItem>5</numberItem>
+		<controlPage>Control Panel</controlPage>
+		<IDHeader>IDHeader</IDHeader>
+		<bannerNameDynamicJavaScript>return document.getElementById('jform_name').style.borderColor='%s';</bannerNameDynamicJavaScript>>
+
+
+	</testmodule>
+	<testmodule name="TM_Contacts001">
+		<nameContact>Team3_Test Contact 1</nameContact>
+		<categoryContact>Sample Data-Contact</categoryContact>
+		<editedNameContact>Team3_Test Contact 3</editedNameContact>
+		<editedCategoryContact>Park Site</editedCategoryContact>
+		<statusContact>Unpublished</statusContact>
+		<contactSuccessfulMessage>Contact successfully saved.</contactSuccessfulMessage>
+		<contactPublishSuccessfulMessage>1 contact successfully published.</contactPublishSuccessfulMessage>
+		<contactUnpublishSuccessfulMessage>1 contact successfully unpublished.</contactUnpublishSuccessfulMessage>
+		<contactArchiveSuccessfulMessage>1 contact successfully archived.</contactArchiveSuccessfulMessage>
+	</testmodule>
+	<testmodule name="TM_Contacts002">
+		<nameContact>Team3_Test Contact 1</nameContact>
+		<categoryContact>Sample Data-Contact</categoryContact>
+		<statusContact>Published</statusContact>
+		<contactCheckinSuccessfulMessage>1 contact successfully checked in.</contactCheckinSuccessfulMessage>
+		<contactTrashSuccessfulMessage>1 contact successfully trashed.</contactTrashSuccessfulMessage>
+	</testmodule>
+	<testmodule name="TM_Contacts003">
+		<nameContact>Team3_Test Contact 1</nameContact>
+		<categoryContact>Sample Data-Contact</categoryContact>
+		<statusContact>Published</statusContact>
+	</testmodule>
+	<testmodule name="TM_Contacts004">
+		<numberContactsPerPage>5</numberContactsPerPage>
+		<allContactsOnPage>All</allContactsOnPage>
+		<nameContact>Team3_Test Contact 1</nameContact>
+		<categoryContact>Sample Data-Contact</categoryContact>
+		<statusContact>Published</statusContact>
+		<image>powered_by.png</image>
+		<contactSuccessfulMessage>Contact successfully saved.</contactSuccessfulMessage>
+	</testmodule>
+	<testmodule name="TM_Contacts005">
+		<nameContact1>Team3_Test Contact Order 1</nameContact1>
+		<categoryContact1>Sample Data-Contact</categoryContact1>
+		<statusContact1>Published</statusContact1>
+		<nameContact2>Team3_Test Contact Order 2</nameContact2>
+		<categoryContact2>Sample Data-Contact</categoryContact2>
+		<statusContact2>Published</statusContact2>
+		<contactPublishSuccessfulMessage>1 contact successfully published.</contactPublishSuccessfulMessage>
+		<contactUnpublishSuccessfulMessage>1 contact successfully unpublished.</contactUnpublishSuccessfulMessage>
+	</testmodule>
+	<testmodule name="TM_CategoryManage001">
+		<nameCategory>Team3_Category Test 1</nameCategory>
+		<statusCategory>Unpublished</statusCategory>
+		<editedNameCategory>Team3_Category Test 1 edited</editedNameCategory>
+		<editCategoryPage>Article: Edit Category</editCategoryPage>
+		<categorySuccessfulMessage>Category successfully saved.</categorySuccessfulMessage>
+		<categoryPublishSuccessfulMessage>1 category successfully published.</categoryPublishSuccessfulMessage>
+		<categoryUnpublishSuccessfulMessage>1 category successfully unpublished.</categoryUnpublishSuccessfulMessage>
+		<categoryArchiveSuccessfulMessage>1 category successfully archived.</categoryArchiveSuccessfulMessage>
+		<categoryTrashSuccessfulMessage>1 category successfully trashed.</categoryTrashSuccessfulMessage>
+	</testmodule>
+	<testmodule name="TM_CategoryManage002">
+		<nameCategory1>Team3_Category Test 1</nameCategory1>
+		<categorySuccessfulMessage>Category successfully saved.</categorySuccessfulMessage>
+		<nameCategory2>Team3_Category Test 2</nameCategory2>
+		<statusCategory>Unpublished</statusCategory>
+		<accessCategory>Registered</accessCategory>
+		<languageCategory>English (UK)</languageCategory>
+	</testmodule>
+	<testmodule name="TM_CategoryManage003">
+		<nameCategory1>Team3_Category Test 1</nameCategory1>
+		<nameCategory2>Team3_Category Test 2</nameCategory2>
+		<nameCategory3>Team3_Category Test 3</nameCategory3>
+		<editedNameCategory3>Team3_Category Test 3_Edited</editedNameCategory3>
+		<categorySuccessfulMessage>Category successfully saved.</categorySuccessfulMessage>
+		<categoryPageName>Articles: Categories</categoryPageName>
+	</testmodule>
+		<testmodule name="TM_CategoryManage004">
+		<nameCategory1>Team3_Category Test 1</nameCategory1>
+		<nameCategory2>Team3_Category Test 2</nameCategory2>
+		<nameCategory3>Team3_Category Test 3</nameCategory3>
+		<nameCategory4>Team3_Category Test 4</nameCategory4>
+		<destinationCategory>Uncategorised</destinationCategory>
+		<accessLevel>Special</accessLevel>
+		<readColor>#9d261d</readColor>
+		<titleNameDynamicJavaScript>return document.getElementById('jform_title').style.borderColor='%s'</titleNameDynamicJavaScript>
+	</testmodule>
+	<testmodule name="TC_JOOMLA_ARTICLE">
+		<titleArticle>Test Article 3 </titleArticle>
+		<articleText>Team3</articleText>
+		<articlecategory>ViDuong_CamXoa</articlecategory>
+		<articlecategory1>ViDuong_CamXoa1</articlecategory1>
+		<status>Unpublished</status>
+		<status1>Published</status1>
+		<access>Registered</access>
+		<accessLevel>Public</accessLevel>
+		<author>team3 user</author>
+		<unpublishStatus>Unpublish</unpublishStatus>
+		<publishStatus>Publish</publishStatus>
+		<featureStatus>Feature</featureStatus>
+		<unfeatureStatus>Unfeature</unfeatureStatus>
+		<selectNumber>5</selectNumber>
+		<selectAll>All</selectAll>
+		<IDHeader>IDHeader</IDHeader>
+		<orderHeader>orderHeader</orderHeader>
+		<image>powered_by.png</image>
+		<articleSuccessfulMessage>Article successfully saved.</articleSuccessfulMessage>
+		<articlePublishSuccessfulMessage>1 article published.</articlePublishSuccessfulMessage>
+		<articleUnpublishSuccessfulMessage>1 article unpublished.</articleUnpublishSuccessfulMessage>
+		<articleFeaturedSuccessfulMessage>1 article featured.</articleFeaturedSuccessfulMessage>
+		<articleUnfeaturedSuccessfulMessage>1 article unfeatured.</articleUnfeaturedSuccessfulMessage>
+		<articleCheckInSuccessfulMessage>1 article successfully checked in.</articleCheckInSuccessfulMessage>
+		<articleTrashSuccessfulMessage>1 article trashed.</articleTrashSuccessfulMessage>
+		<articleArchiveSuccessfulMessage>1 article archived.</articleArchiveSuccessfulMessage>
+		<articleSuccessfulMessage>Article successfully saved.</articleSuccessfulMessage>
+		<articlePublishSuccessfulMessage>1 article published.</articlePublishSuccessfulMessage>
+		<articleUnpublishSuccessfulMessage>1 article unpublished.</articleUnpublishSuccessfulMessage>
+		<articleFeaturedSuccessfulMessage>1 article featured.</articleFeaturedSuccessfulMessage>
+		<articleUnfeaturedSuccessfulMessage>1 article unfeatured.</articleUnfeaturedSuccessfulMessage>
+		<articleCheckInSuccessfulMessage>1 article successfully checked in.</articleCheckInSuccessfulMessage>
+		<articleTrashSuccessfulMessage>1 article trashed.</articleTrashSuccessfulMessage>
+		<articleArchiveSuccessfulMessage>1 article archived.</articleArchiveSuccessfulMessage>
+	</testmodule>
+	<testmodule name="TC_JOOMLA_WEBLINKS">
+		<titleWebLinks>Test WebLink 3 </titleWebLinks>
+		<webLinksText>Team3</webLinksText>
+		<webLinksURL>http://www.joomla.org</webLinksURL>
+		<webLinksURL1>http://www.google.com</webLinksURL1>
+		<webLinkscategory>ViDuong_CamXoa</webLinkscategory>
+		<webLinkscategory1>ViDuong_CamXoa1</webLinkscategory1>
+		<webLinksStatus>Unpublished</webLinksStatus>
+		<webLinksStatus1>Published</webLinksStatus1>
+		<webLinksUnpublishStatus>Unpublish</webLinksUnpublishStatus>
+		<webLinksPublishStatus>Publish</webLinksPublishStatus>
+		<webLinksAccess>Registered</webLinksAccess>
+		<webLinksAccessLevel>Public</webLinksAccessLevel>
+		<webLinkImage>powered_by.png</webLinkImage>
+		<webLinkIDHeader>IDHeader</webLinkIDHeader>
+		<weblinkOrderHeader>orderHeader</weblinkOrderHeader>
+		<weblinkSelectNumber>5</weblinkSelectNumber>
+		<weblinkSelectAll>All</weblinkSelectAll>
+		<webLinksDateStartPublish>2016-04-10 00:00:00</webLinksDateStartPublish>
+		<webLinksDateEndPublish>2016-04-20 00:00:00</webLinksDateEndPublish>
+		<webLinksSuccessfulMessage>Web link successfully saved</webLinksSuccessfulMessage>
+		<webLinksPublishSuccessfulMessage>1 web link successfully published.</webLinksPublishSuccessfulMessage>
+		<webLinksUnpublishSuccessfulMessage>1 web link successfully unpublished.</webLinksUnpublishSuccessfulMessage>
+		<webLinksCheckInSuccessfulMessage>1 web link successfully checked in.</webLinksCheckInSuccessfulMessage>
+		<webLinksTrashSuccessfulMessage>1 web link successfully trashed.</webLinksTrashSuccessfulMessage>
+		<webLinksArchiveSuccessfulMessage>1 web link successfully archived.</webLinksArchiveSuccessfulMessage>
+	</testmodule>
+</testmodules>

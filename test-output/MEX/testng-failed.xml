@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MEX]">
+  <parameter name="browser" value="Firefox"/>
+  <listeners>
+    <listener class-name="actions.configure.TestListeners"/>
+  </listeners>
+  <test name="testmodule3(failed)">
+    <classes>
+      <class name="testcases.Test.Module2">
+        <methods>
+          <include name="f"/>
+          <include name="TC030"/>
+          <include name="TC020"/>
+          <include name="TC018"/>
+          <include name="TC029"/>
+          <include name="tearDown"/>
+          <include name="TC019"/>
+          <include name="TC021"/>
+          <include name="TC022"/>
+          <include name="TC023"/>
+          <include name="TC024"/>
+          <include name="TC025"/>
+          <include name="TC015"/>
+          <include name="TC026"/>
+          <include name="TC016"/>
+          <include name="TC027"/>
+          <include name="TC017"/>
+          <include name="TC028"/>
+        </methods>
+      </class> <!-- testcases.Test.Module2 -->
+    </classes>
+  </test> <!-- testmodule3(failed) -->
+</suite> <!-- Failed suite [MEX] -->

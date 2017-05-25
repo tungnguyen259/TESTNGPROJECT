@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Mex">
+ 
+ <listeners>
+	<listener class-name="actions.configure.TestListeners" />
+	<listener class-name="actions.configure.InvokedMethodListener" />
+</listeners>
+ 
+    <test name="Practice Grouping">
+    
+	<classes>
+	    <class name="testcases.Test.Test_Listener" />
+	</classes>
+ 
+    </test>
+ 
+ </suite>

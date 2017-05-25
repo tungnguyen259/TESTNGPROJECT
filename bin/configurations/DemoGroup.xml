@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Mex">
+ 
+    <test name="Practice Grouping">
+    
+    <groups>
+	    <run>
+		<include name="Car" />
+	    </run>
+	</groups>
+ 
+	<classes>
+	    <class name="testcases.Test.Test_GroupAnnotations" />
+	</classes>
+ 
+    </test>
+ 
+ </suite>

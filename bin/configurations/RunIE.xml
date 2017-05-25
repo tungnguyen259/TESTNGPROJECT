@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MEX">
+	<parameter name="browser" value="IE" />
+	
+<listeners>
+<listener class-name="actions.configure.TestListeners" />
+</listeners>
+ 
+	<test name="testmodule3">
+		<classes>
+	<class name="testcases.Test.Module1" />	 
+		<class name="testcases.Test.Module2" />	
+			<class name="testcases.Test.Module3" />	
+		</classes>
+	</test>
+</suite>
