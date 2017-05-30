@@ -28,14 +28,14 @@ public class Module1 extends AbstractTest{
 	  loginPageObject = new LoginPage(driver);
 	  NewUserPageObject = new NewUserPage(driver);
 	  
-//		log.info("Step 2: Enter valid username into Username field");
-//		log.info("Step 3: Enter valid password into Password field");
-//		log.info("Step 4: Click on 'Log in' button");
+		log.info("Step 2: Enter valid username into Username field");
+		log.info("Step 3: Enter valid password into Password field");
+		log.info("Step 4: Click on 'Log in' button");
 	  
-	  //Step 1: Open browser
+		log.info("Step 1: Open browser");
 	  navigateBrowser(driver, Constant.url);
-	  
-	  //Step 2: Login BE
+	  	  
+		log.info("Step 2: Login BE");
 	  loginPageObject.login(Constant.username, Constant.password);	
 	  
 	  //Step 3: Create new user
