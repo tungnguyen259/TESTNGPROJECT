@@ -249,7 +249,6 @@ public class Module2 extends AbstractTest{
   private String colour ="White";
   private String chassis ="TungAdded";
   private String manufacture ="2009";
-  private String message = "A vehicle was successfully created.";
   private String pageName = "Vehicles";
   
 }
