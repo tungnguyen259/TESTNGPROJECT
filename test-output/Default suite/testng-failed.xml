@@ -3,28 +3,26 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcases.Test.Module2">
+      <class name="testcases.Test.Module1">
         <methods>
           <include name="f"/>
-          <include name="TC030"/>
-          <include name="TC020"/>
-          <include name="TC018"/>
-          <include name="TC029"/>
           <include name="tearDown"/>
-          <include name="TC019"/>
-          <include name="TC021"/>
-          <include name="TC022"/>
-          <include name="TC023"/>
-          <include name="TC024"/>
-          <include name="TC025"/>
-          <include name="TC015"/>
-          <include name="TC026"/>
-          <include name="TC016"/>
-          <include name="TC027"/>
-          <include name="TC017"/>
-          <include name="TC028"/>
+          <include name="TC008"/>
+          <include name="TC007"/>
+          <include name="TC009"/>
+          <include name="TC011"/>
+          <include name="TC010"/>
+          <include name="TC002"/>
+          <include name="TC013"/>
+          <include name="TC001"/>
+          <include name="TC012"/>
+          <include name="TC004"/>
+          <include name="TC003"/>
+          <include name="TC014"/>
+          <include name="TC006"/>
+          <include name="TC005"/>
         </methods>
-      </class> <!-- testcases.Test.Module2 -->
+      </class> <!-- testcases.Test.Module1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
