@@ -29,8 +29,6 @@ public class Constant
 	public static final String checkinButton = "Checkin";
 	public static final String archiveButton = "Archive";
 	public static final String processButton = "Process";
-	public static final String batchButton = "Batch";
-	public static final String helpPageTitle="Joomla! Help";
 	
 	
 	//===================driver===============================================
