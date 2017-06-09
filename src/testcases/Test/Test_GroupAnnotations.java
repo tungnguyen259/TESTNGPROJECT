@@ -8,15 +8,16 @@ public class Test_GroupAnnotations {
  
   @Test (groups = { "Car" })
  
-  public void Car1() {
+  public void Car2() {
  
 	  System.out.println("Batch Car - Test car 1");
+	  assertEquals("1", "0");
  
   }
  
   @Test (groups = { "Car" })
  
-  public void Car2() {
+  public void Car1() {
  
 	  System.out.println("Batch Car - Test car 2");
 	  //assertEquals("1", "0");

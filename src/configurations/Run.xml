@@ -11,7 +11,7 @@
 		<classes>
 		<class name="testcases.Test.Module1" />	
 		<class name="testcases.Test.Module2" />	
-				<class name="testcases.Test.Module3" />	
+		<class name="testcases.Test.Module3" />	
 		</classes>
 	</test>
 </suite>

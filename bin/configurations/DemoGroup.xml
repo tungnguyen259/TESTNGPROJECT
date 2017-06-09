@@ -11,6 +11,7 @@
  
 	<classes>
 	    <class name="testcases.Test.Test_GroupAnnotations" />
+	    
 	</classes>
  
     </test>

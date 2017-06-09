@@ -1,5 +1,7 @@
 package actions.common;
 
+import org.openqa.selenium.WebDriver;
+
 public class Constant 
 {
 	public static String url;
@@ -11,7 +13,9 @@ public class Constant
 	public static final String configFilePath = "src/configurations/configuration.xml";
 	public static final String dataFilePath = "src/configurations/data.xml";
 	public static final String urlMobile = "https://rainmakerlabs.outsystemscloud.com/PreviewInDevices/?IsMobilePreview=True&DeviceName=Smartphone&URL=/DaimlerMEXMobile/HomeScreen?_ts=636269020166138833";
-
+	public static WebDriver driver=null; 
+	public static final String filePath = "test-output\\";
+	
 	//=================button============================================
 	public static final String saveButton = "Save";
 	public static final String saveNewButton = "Save&New";

@@ -1,5 +1,6 @@
 package actions.configure;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -28,7 +29,10 @@ public class TestListeners implements ITestListener{
 
 	@Override
 	public void onTestFailure(ITestResult arg0) {
-		//CommonActions.getCommonObject().takeScreenShot(driver, "fail");
+		
+	    //Object currentClass = arg0.getInstance();
+        //WebDriver driver = ((BaseTest) currentClass).getDriver();
+		CommonActions.getCommonObject().takeScreenShot("fail");
 		
 	}
 

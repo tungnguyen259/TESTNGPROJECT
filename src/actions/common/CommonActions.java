@@ -106,21 +106,39 @@ public class CommonActions {
 		return dateFormat.format(date).toString();
 	}
 	
-	/**
-	 * take picture when TC fails
-	 * @param driver
-	 * @param imagename
-	 */
-	public void takeScreenShot(WebDriver driver,String imagename) {
-		  String filePath = "test-output\\";
-		  File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		  try {
-		   FileUtils.copyFile(scrFile, new File(filePath + imagename+ ".png"));
-		   System.out.println("Saved " + imagename + ".png" + " screenshot in " + filePath);
-		  } catch (IOException e) {
-		   e.printStackTrace();
-		  }
-		 }
+//	/**
+//	 * take picture when TC fails
+//	 * @param driver
+//	 * @param imagename
+//	 */
+//	public void takeScreenShot(WebDriver driver,String imagename) {
+//		  String filePath = "test-output\\";
+//		  File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//		  try {
+//		   FileUtils.copyFile(scrFile, new File(filePath + imagename+ ".png"));
+//		   System.out.println("Saved " + imagename + ".png" + " screenshot in " + filePath);
+//		  } catch (IOException e) {
+//		   e.printStackTrace();
+//		  }
+//		 }
+	
+	
+	
+	 /**
+	  * take picture when TC fails
+	  * 
+	  * @param driver
+	  * @param imagename
+	  */
+	 public void takeScreenShot(String imagename) {
+	  File scrFile = ((TakesScreenshot) Constant.driver).getScreenshotAs(OutputType.FILE);
+	  try {
+	   FileUtils.copyFile(scrFile, new File(Constant.filePath + imagename + "_" + getRandomString() + ".png"));
+	   System.out.println(Constant.filePath + imagename + "_" + getRandomString() + ".png" + " screenshot in ");
+	  } catch (IOException e) {
+	   e.printStackTrace();
+	  }
+	 }
 	
 	private static CommonActions commonObject;
 }
